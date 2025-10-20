@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4e4ba;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    background-color: #f9f1e6;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    min-height: 60vh;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+form {
+    width: 60vw;
+    height: 40vh;
+    padding: 4rem;
+    box-sizing: border-box;
+    margin: 2rem 0 2rem 0;
+    font-size: x-large;
+}
+
+form input, select {
+    border: 1px solid rgb(161, 154, 154);
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.dropdown {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.from {
+    margin-left: 2rem;
+}
+
+.to {
+    margin-right: 2rem;
+}
+
+.lower {
+    margin-top: 3rem;
+}
+
+.msg {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    font-size: large;
+    font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+
+.bdr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    gap: 0.3rem;
+    padding: 0 1rem;
+}
+
+.bdr select {
+    border: none;
+}
+
